@@ -2,7 +2,7 @@
 
 Connect 4 game using just HTML, CSS and JavaScript.
 
-To run locally, download or checkout the code, then open index.html using any browser.
+To run locally, download or checkout the code, then open `index.html` using any browser.
 
 Deployed on netlify: https://starlit-brigadeiros-dde511.netlify.app/
 
