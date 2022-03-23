@@ -1,4 +1,4 @@
-# Coonect 4
+# Connect 4
 
 Connect 4 game using just HTML, CSS and JavaScript.
 
