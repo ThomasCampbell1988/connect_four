@@ -6,4 +6,4 @@ To run locally, download or checkout the code, then open `index.html` using any 
 
 Deployed on netlify: https://starlit-brigadeiros-dde511.netlify.app/
 
-YouTube tutorial video is here: https://www.youtube.com/watch?v=kA9OOeUXXSU
+YouTube tutorial video is here: https://youtu.be/kA9OOeUXXSU
