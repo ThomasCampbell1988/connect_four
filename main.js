@@ -145,6 +145,10 @@ function hasPlayerWon(playerTurn, pieces) {
       pieces[index + 2] === playerTurn &&
       pieces[index + 3] === playerTurn
     ) {
+      board.children[index].firstChild.dataset.highlighted = true
+      board.children[index + 1].firstChild.dataset.highlighted = true
+      board.children[index + 2].firstChild.dataset.highlighted = true
+      board.children[index + 3].firstChild.dataset.highlighted = true
       return true;
     }
 
@@ -156,6 +160,10 @@ function hasPlayerWon(playerTurn, pieces) {
       pieces[index + 14] === playerTurn &&
       pieces[index + 21] === playerTurn
     ) {
+      board.children[index].firstChild.dataset.highlighted = true
+      board.children[index + 7].firstChild.dataset.highlighted = true
+      board.children[index + 14].firstChild.dataset.highlighted = true
+      board.children[index + 21].firstChild.dataset.highlighted = true
       return true;
     }
 
@@ -168,6 +176,10 @@ function hasPlayerWon(playerTurn, pieces) {
       pieces[index + 16] === playerTurn &&
       pieces[index + 24] === playerTurn
     ) {
+      board.children[index].firstChild.dataset.highlighted = true
+      board.children[index + 8].firstChild.dataset.highlighted = true
+      board.children[index + 16].firstChild.dataset.highlighted = true
+      board.children[index + 24].firstChild.dataset.highlighted = true
       return true;
     }
 
@@ -180,6 +192,10 @@ function hasPlayerWon(playerTurn, pieces) {
       pieces[index + 12] === playerTurn &&
       pieces[index + 18] === playerTurn
     ) {
+      board.children[index].firstChild.dataset.highlighted = true
+      board.children[index + 6].firstChild.dataset.highlighted = true
+      board.children[index + 12].firstChild.dataset.highlighted = true
+      board.children[index + 18].firstChild.dataset.highlighted = true
       return true;
     }
   }

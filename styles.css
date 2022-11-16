@@ -65,6 +65,14 @@ h1 {
   transform: translateY(-10vmin);
 }
 
+.piece[data-player="1"][data-highlighted="true"] {
+  background-color: rgb(255, 0, 0);
+}
+
+.piece[data-player="2"][data-highlighted="true"] {
+  background-color: rgb(179, 255, 0);
+}
+
 
 
 /* MODAL */
